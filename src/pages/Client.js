@@ -9,7 +9,7 @@ function Client() {
 
   return (
     <>
-      <div className="container oswald-font pt-5" data-aos="fade-up" data-aos-duration="2000">
+      <div className="container oswald-font pt-5" >
         <h1 className="text-center pb-3 pt-5 mt-5 animate__bounceIn">Clientele</h1>
 
         {/* Desktop View */}

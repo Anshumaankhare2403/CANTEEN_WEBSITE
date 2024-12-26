@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home.js';
 import Testimonials from './components/Testimonials.js';
@@ -10,14 +10,25 @@ import Manufacturing from './pages/Manufacturing.js';
 import Education from './pages/Education.js';
 import Eventspace from './pages/EventSpaces.js';
 import Corporate from './pages/Corporate.js';
-// import Socialicon from './components/SocialIcon.js';
 
 import Nav from './layouts/Nav.js';
 import Footer from './layouts/Footer.js';
 import ScrollToTop from './components/ScrollToTop';
-
+import SplashScreen from './components/SplashScreen.js';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Show the splash screen for 3 seconds on initial load
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer); // Cleanup the timer
+  }, []);
+
+  if (loading) {
+    return <SplashScreen />;
+  }
+
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -33,9 +44,7 @@ function App() {
         <Route path="education" element={<Education />} />
         <Route path="eventspace" element={<Eventspace />} />
         <Route path="corporate" element={<Corporate />} />
-        {/* <Route path="career" element={<Career />} /> */}
       </Routes>
-      {/* <Socialicon /> */}
       <Footer />
     </BrowserRouter>
   );

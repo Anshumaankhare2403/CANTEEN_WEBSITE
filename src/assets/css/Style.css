@@ -1,7 +1,7 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Global Styles */
 * {
     margin: 0;
@@ -17,11 +17,12 @@ html,body{
 }
 
 /* Typography */
-.oswald-font {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
+
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 400;
     font-style: normal;
-}
+  }
 
 .dancing-script-font {
     font-family: "Dancing Script", cursive;
@@ -268,6 +269,31 @@ html,body{
     z-index: 1;
 }
 
+/* Default styling for Logo */
+
+
+/* For screens smaller than 768px (tablets, mobile) */
+@media (max-width: 767px) {
+    .Logo_home_spices {
+        width: 40vh; /* Decrease width on smaller screens */
+    }
+}
+
+/* For screens larger than 768px but smaller than 1200px (small desktops) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .Logo_home_spices {
+        width: 43vh; /* Adjust width for medium-sized screens */
+    }
+}
+
+/* For screens larger than 1200px (large desktops) */
+@media (min-width: 1200px) {
+    .Logo_home_spices {
+        width: 46vh; /* Default width for larger screens */
+    }
+}
+
+
 /* Home Button */
 .Home_button {
     cursor: pointer;
@@ -300,6 +326,236 @@ html,body{
     transform: scale(0.95);
 }
 
+/* success section  */
+
+/* Initial blur effect */
+.blur {
+    filter: blur(10px);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  /* Remove blur when image is loaded */
+  .unblur {
+    filter: blur(0);
+  }
+
+
+  /* Card expertis  */
+ /* card */
+ .font_p {
+    font-size: 1.1rem; /* Default size */
+  }
+  
+  /* Media query for small screens (max width 768px) */
+  @media (max-width: 768px) {
+    .font_p {
+      font-size: 1rem; /* Slightly smaller font for tablets */
+    }
+  }
+  
+  /* Media query for extra small screens (max width 480px) */
+  @media (max-width: 480px) {
+    .font_p {
+      font-size: 0.8rem; /* Smaller font for mobile devices */
+    }
+  }
+  
+  .card_main p {
+    height: 70px;
+    /* font-size: 17px;
+    font-weight: 400; */
+    /* line-height: 20px; */
+    color: #000000;
+
+  }
+  
+  .card_main p.small {
+    font-size: 14px;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #212529;
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+.card1 {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    background-color: #EEEDEB;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .card1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #212529;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card1:hover:before {
+    transform: scale(100);
+  }
+  
+  .card1:hover p {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card1:hover h3 {
+    transition: all 0.3s ease-out;
+    color: #fff;
+  }
+  
+  .card2 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  }
+  
+  .card2:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(218, 9, 9, 0.2);
+    top: -4px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #adb5bd;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+  
+  .card2:hover:before {
+    transform: scale(2.15);
+  }
+  
+  .card3 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  }
+  
+  .card3 .go-corner {
+    opacity: 0.7;
+  }
+  
+  .card3:hover {
+    border: 1px solid #adb5bd;
+    box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+    z-index: 500;
+  }
+  
+  
+  .card3:hover .go-corner {
+    transition: opactiy 0.3s linear;
+    opacity: 1;
+  }
+  
+  .card4 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .card4 .go-corner {
+    background-color: #adb5bd;
+    height: 100%;
+    width: 16px;
+    padding-right: 9px;
+    border-radius: 0;
+    transform: skew(6deg);
+    margin-right: -36px;
+    align-items: start;
+    background-image: linear-gradient(-45deg, #8f479a 1%, #dc2a74 100%);
+  }
+  
+  .card4 .go-arrow {
+    transform: skew(-6deg);
+    margin-left: -2px;
+    margin-top: 9px;
+    opacity: 0;
+  }
+  
+  .card4:hover {
+    border: 1px solid #cd3d73;
+  }
+  
+  .card4 h3 {
+    margin-top: 8px;
+  }
+  
+  .card4:hover .go-corner {
+    margin-right: -12px;
+  }
+  
+  .card4:hover .go-arrow {
+    opacity: 1;
+  }
 /* Event Backgrounds */
 .Event_background, .Event_background1, .Event_background2 {
     position: relative;
@@ -326,13 +582,44 @@ html,body{
 }
 
 /* Work Backgrounds */
-.Work_background, .Work_background1 {
+/* .Work_background, .Work_background1 {
     position: relative;
     background-image: url('../images/Work/Backgrounde.png');
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
+
+/* Position the wave at the bottom */
+.wave-background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  /* Ensure wave stays in the background */
+  }
+  .wave-background1 {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  /* Ensure wave stays in the background */
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  /* Ensure content sits above the wave */
+  /* .container {
+    position: relative;
+    z-index: 1;
+  } */
+  
+
+/* From Uiverse.io by MikeAndrewDesigner */ 
+
 
 /* .Work_background {
     height: 60vh;
@@ -482,4 +769,24 @@ html,body{
   
   .testimonial-section .single-testimonial .info .text p {
     font-size: 16px;
+  }
+
+
+  /* footer section  */
+  #root {  /* or your main wrapper div */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
   }

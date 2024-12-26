@@ -1,22 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from '../assets/images/home/1.png';
 import Image1 from '../assets/images/home/2.png';
 import Image2 from '../assets/images/home/3.png';
 import LazyLoad from 'react-lazyload';
 
 function SuccessStories() {
+  const [isLoaded, setIsLoaded] = useState({
+    image1: false,
+    image2: false,
+    image3: false
+  });
+
+  // Function to handle image load event
+  const handleImageLoad = (imageKey) => {
+    setIsLoaded(prevState => ({ ...prevState, [imageKey]: true }));
+  };
+
   return (
     <section className="container pb-5 mb-5 ">
-      {/* Semantic, descriptive heading for SEO */}
-      <h1 className="display-5 fw-bold text-center dancing-script-font">Success Stories</h1>
+      <h1 className="display-5 fw-bold text-center">Success Stories</h1>
       <div className="row border-top border-3 pt-5">
         
         {/* Success Story 1: Growing Business */}
         <div className="col-lg zoom-in pb-4">
           <div className="card bg-transparent border-0">
-            {/* Lazy load the image */}
             <LazyLoad height={200} offset={100}>
-              <img src={Image} className="img-fluid shadow-sm rounded" alt="Success story about growing business" loading="lazy" />
+              <img 
+                src={Image} 
+                className={`img-fluid shadow-sm rounded ${isLoaded.image1 ? 'unblur' : 'blur'}`} 
+                alt="Success story about growing business" 
+                loading="lazy"
+                onLoad={() => handleImageLoad('image1')} 
+              />
             </LazyLoad>
             <div className="card-body">
               <h5 className="card-title">Growing Business</h5>
@@ -30,9 +45,14 @@ function SuccessStories() {
         {/* Success Story 2: Satisfied Customers */}
         <div className="col-lg zoom-in pb-4">
           <div className="card bg-transparent border-0">
-            {/* Lazy load the image */}
             <LazyLoad height={200} offset={100}>
-              <img src={Image2} className="img-fluid shadow-sm rounded" alt="Success story about satisfied customers" loading="lazy" />
+              <img 
+                src={Image2} 
+                className={`img-fluid shadow-sm rounded ${isLoaded.image2 ? 'unblur' : 'blur'}`} 
+                alt="Success story about satisfied customers" 
+                loading="lazy"
+                onLoad={() => handleImageLoad('image2')} 
+              />
             </LazyLoad>
             <div className="card-body">
               <h5 className="card-title">Satisfied Customers</h5>
@@ -46,9 +66,14 @@ function SuccessStories() {
         {/* Success Story 3: Exceptional Teamwork */}
         <div className="col-lg zoom-in pb-4">
           <div className="card bg-transparent border-0">
-            {/* Lazy load the image */}
             <LazyLoad height={200} offset={100}>
-              <img src={Image1} className="img-fluid shadow-sm rounded" alt="Success story about exceptional teamwork" loading="lazy" />
+              <img 
+                src={Image1} 
+                className={`img-fluid shadow-sm rounded ${isLoaded.image3 ? 'unblur' : 'blur'}`} 
+                alt="Success story about exceptional teamwork" 
+                loading="lazy"
+                onLoad={() => handleImageLoad('image3')} 
+              />
             </LazyLoad>
             <div className="card-body">
               <h5 className="card-title">Exceptional Teamwork</h5>

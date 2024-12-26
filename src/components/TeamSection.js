@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import S_Image from '../assets/images/tt.png';
 import LazyLoad from 'react-lazyload';
 
 function TeamSection() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  // Function to handle image load event
+  const handleImageLoad = () => {
+    setIsLoaded(true);
+  };
+
   return (
     <section className="container mb-5 pb-5">
-      {/* Descriptive heading for SEO */}
       <h1 className="fw-bold text-center">Our Team</h1>
       <div className="row border-top border-3">
         <div className="col-md d-flex align-items-center">
@@ -21,10 +27,16 @@ function TeamSection() {
           </p>
         </div>
 
-        {/* Lazy-loaded image */}
+        {/* Lazy-loaded image with blur effect */}
         <div className="col-md-6">
           <LazyLoad height={200} offset={100}>
-            <img src={S_Image} className="img-fluid" alt="Fusion Spice Hospitality Team" loading="lazy" />
+            <img 
+              src={S_Image} 
+              className={`img-fluid ${isLoaded ? 'unblur' : 'blur'}`} 
+              alt="Fusion Spice Hospitality Team" 
+              loading="lazy" 
+              onLoad={handleImageLoad}
+            />
           </LazyLoad>
         </div>
       </div>

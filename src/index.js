@@ -10,7 +10,7 @@ import 'animate.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='oswald-font'>
+    <div className='roboto-thin'>
     <App />
     </div>
     

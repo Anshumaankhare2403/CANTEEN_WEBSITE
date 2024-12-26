@@ -12,12 +12,12 @@ function About() {
     return (
         <>
         <Suspense fallback={<p>loading..</p>}>
-            <div className="container pb-5 pt-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container mt-5 pt-3 " >
                 <h1 className="text-center display-5 fw-bold pb-3 pt-5 animate__bounceIn">About Us</h1>
 
                 <div className="row justify-content-center align-items-center g-2 border-top border-bottom border-3">
                     {/* Text Section */}
-                    <div className="col-md-6 col-12">
+                    <div className="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000" >
                         <p className="fs-5">
                             Fusion Spice has been setting the bar for unmatched hospitality and
                             culinary expertise for more than 25 years. Our unwavering commitment to
@@ -32,7 +32,7 @@ function About() {
                     </div>
 
                     {/* Image Section */}
-                    <div className="col-md-4 col-12 mt-4 mt-md-0">
+                    <div className="col-md-4 col-12 mt-4 mt-md-0" data-aos="fade-down" data-aos-duration="1000">
 
                         <LazyLoadImage src={About_Image}
                             alt="Fusion Spice Company Logo"
