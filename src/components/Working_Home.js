@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazyload';
 
 function Working_Home(props) {
     return (
-        <div className="container  pt-5 mt-5 pb-5 rounded-bottom rounded position-relative">
+        <div className="container-fluid  px-lg-5 pt-5 mt-5 pb-5 rounded-bottom rounded position-relative">
             {/* Wave animation as background */}
 
 
@@ -24,7 +24,17 @@ function Working_Home(props) {
                         options={{
                             height: 60,          // Height of the wave
                             amplitude: 20,       // Amplitude of the wave
-                            speed: 0.75,         // Speed of the wave
+                            speed: 0.55,         // Speed of the wave
+                            points: 4,           // Number of wave points
+                        }}
+                    />
+                    <Wavify
+                        className="wave-background"
+                        fill="#A8DF8E"  // Customize color
+                        options={{
+                            height: 60,          // Height of the wave
+                            amplitude: 20,       // Amplitude of the wave
+                            speed: 0.55,         // Speed of the wave
                             points: 4,           // Number of wave points
                         }}
                     />
@@ -34,7 +44,17 @@ function Working_Home(props) {
                         options={{
                             height: 200,          // Height of the wave
                             amplitude: 20,       // Amplitude of the wave
-                            speed: 0.70,         // Speed of the wave
+                            speed: 0.50,         // Speed of the wave
+                            points: 5,           // Number of wave points
+                        }}
+                    />
+                    <Wavify
+                        className="wave-background"
+                        fill="#F3FDE8"  // Customize color
+                        options={{
+                            height: 200,          // Height of the wave
+                            amplitude: 20,       // Amplitude of the wave
+                            speed: 0.50,         // Speed of the wave
                             points: 5,           // Number of wave points
                         }}
                     />
@@ -43,6 +63,36 @@ function Working_Home(props) {
                         fill="#A1C398"  // Customize color
                         options={{
                             height: 300,          // Height of the wave
+                            amplitude: 20,       // Amplitude of the wave
+                            speed: 0.50,         // Speed of the wave
+                            points: 6,           // Number of wave points
+                        }}
+                    />
+                    <Wavify
+                        className="wave-background"
+                        fill="#A1C398"  // Customize color
+                        options={{
+                            height: 300,          // Height of the wave
+                            amplitude: 20,       // Amplitude of the wave
+                            speed: 0.50,         // Speed of the wave
+                            points: 6,           // Number of wave points
+                        }}
+                    />
+                    <Wavify
+                        className="wave-background"
+                        fill="#C9F4AA"  // Customize color
+                        options={{
+                            height: 400,          // Height of the wave
+                            amplitude: 20,       // Amplitude of the wave
+                            speed: 0.70,         // Speed of the wave
+                            points: 6,           // Number of wave points
+                        }}
+                    />
+                    <Wavify
+                        className="wave-background"
+                        fill="#C9F4AA"  // Customize color
+                        options={{
+                            height: 400,          // Height of the wave
                             amplitude: 20,       // Amplitude of the wave
                             speed: 0.70,         // Speed of the wave
                             points: 6,           // Number of wave points

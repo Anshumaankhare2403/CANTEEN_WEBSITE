@@ -4,7 +4,7 @@ function Homebutton(B_name) {
     return (
         <div>
             <Link to={B_name.link} className='active nav-link'>
-            <button className='Home_button '>
+            <button className='Home_button mb-3'>
           
                 <span>{B_name.name}</span>
                 <svg

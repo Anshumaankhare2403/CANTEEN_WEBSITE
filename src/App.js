@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home.js';
-import Testimonials from './components/Testimonials.js';
+// import Testimonials from './components/Testimonials.js';
 import Contact from './pages/Contact.js';
 import About from './pages/About.js';
 import Client from './pages/Client.js';
@@ -16,6 +16,8 @@ import Footer from './layouts/Footer.js';
 import ScrollToTop from './components/ScrollToTop';
 import SplashScreen from './components/SplashScreen.js';
 
+// import { Fab } from '@mui/material';
+// import NavigationIcon from '@mui/icons-material/Navigation';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -35,7 +37,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path="Testimonials" element={<Testimonials />} />
+        {/* <Route path="Testimonials" element={<Testimonials />} /> */}
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Client />} />
@@ -45,6 +47,10 @@ function App() {
         <Route path="eventspace" element={<Eventspace />} />
         <Route path="corporate" element={<Corporate />} />
       </Routes>
+      {/* <Fab variant="extended" color="primary">
+        <NavigationIcon sx={{ mr: 1 }} />
+        Extended
+      </Fab> */}
       <Footer />
     </BrowserRouter>
   );

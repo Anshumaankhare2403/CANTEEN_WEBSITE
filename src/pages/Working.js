@@ -42,7 +42,7 @@ function Working() {
     <>
   
 
-      <div data-aos="fade-up" data-aos-duration="2000">
+      <div >
       <WorkingHome 
           img={<img src={Work3} className="img-fluid rounded" alt="Working environment" loading="lazy" />} 
           head="We care about amazing people, like you" 
@@ -57,7 +57,7 @@ function Working() {
       <CoreValues />
 
       {/* With Us Working Section */}
-      <div className='pt-lg-5 mt-lg-5 pb-lg-5 mb-lg-5 pt-md-5 mt-md-5 pb-md-5 mb-md-5'data-aos="fade-up" data-aos-duration="2000" >
+      <div className='pt-lg-5 mt-lg-5 pb-lg-5 mb-lg-5 pt-md-5 mt-md-5 pb-md-5 mb-md-5' >
         <WithUsWorking
           col1={<img src={Work1} className="img-fluid" alt="Work 1" loading="lazy" />}
           col2={<img src={Work2} className="img-fluid" alt="Work 2" loading="lazy" />}
@@ -74,7 +74,7 @@ function Working() {
       </div>
 
       {/* Welcome Section */}
-      <div className='mt-5 pt-5 pb-5 Work_background1'>
+      <div className='mt-5 pt-5 pb-5 Work_background1 '>
         <WorkingWelcome 
           head="Welcome. You Are in Good Company." 
           par="Come be a part of something greater. It all starts with you." 

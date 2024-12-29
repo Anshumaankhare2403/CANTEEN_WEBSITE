@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Logo1 from "../assets/images/Logo/Logo.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import { Button } from '@mui/material';
 
 function Nav() {
   useEffect(() => {
@@ -16,12 +17,12 @@ function Nav() {
             <img src={Logo1} alt="Fusion Spice Logo" width="50" height="50" />
             Fusion Spice
           </a>
-          <button 
-            className="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="offcanvas" 
-            data-bs-target="#offcanvasNavbar" 
-            aria-controls="offcanvasNavbar" 
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
@@ -59,6 +60,15 @@ function Nav() {
                 <li className="nav-item bgbg rounded-pill text-center zoom-out animate__bounceIn d-none d-lg-block d-print-block" style={{ width: "100px" }}>
                   <a className="nav-link active fw-bold text-light" aria-current="page" href="/contact">Contact Us</a>
                 </li>
+                {/* <Button variant="contained " style={{
+                  backgroundColor: "#6200ea", // Custom background color
+                  color: "white",            // Custom text color
+                  padding: "10px 20px",      // Padding
+                  fontSize: "16px",          // Font size
+                  borderRadius: "8px",       // Rounded corners
+                  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Shadow effect
+                }}>Contained</Button> */}
+
               </ul>
             </div>
           </div>
