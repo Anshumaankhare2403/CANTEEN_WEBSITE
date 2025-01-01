@@ -1,7 +1,11 @@
 import React from 'react';
 import ED1 from '../assets/images/Eduction/ed1.png';
-import ED2 from '../assets/images/Eduction/ed2.png';
-import WorkingHome from '../components/Working_Home';
+// import ED2 from '../assets/images/Eduction/ed2.png';
+// import WorkingHome from '../components/Working_Home';
+// import Homebutton from '../components/Homebutton';
+
+
+
 
 const Success = () => (
   <div className='container mt-4 mt-md-5 mt-lg-5 mb-lg-5 mb-md-5 rounded px-4'>
@@ -48,16 +52,29 @@ function EventSpaces() {
   return (
     <>
       <div className='Event_background'>
-        <WorkingHome
-          img={<img src={ED2} className='img-fluid rounded' alt='A welcoming event space provided by Fusion Spice' />}
-          head='A perfect space for all your special occasions'
-          Bname='Contact Us'
-        />
+        <div className="container-fluid px-3 px-lg-5 pt-5 mt-5 pb-5 rounded-bottom rounded position-relative">
+          {/* Wave animation as background */}
+
+
+          {/* Content */}
+          <div className="row pt-3  px-3 p-5 border border-3  ">
+            <div className="col-lg p-3  align-self-center mt-4 mt-md-4 mt-lg textbg    shadow-lg">
+
+
+              <p className="display-2 px-lg-5 px-md-5 fw-bold  text-capitalize" style={{ color: "black" }}>A perfect space for all your special occasions</p>
+              {/* <div className="pt-2 px-lg-5 px-md-5">
+                <Homebutton name='Contact Us' link="/#" />
+
+              </div> */}
+            </div>
+         
+          </div>
+        </div>
+
       </div>
       <Success />
-      <div className='Event_background2'>
-        <HappyUs />
-      </div>
+
+      <HappyUs />
     </>
   );
 }

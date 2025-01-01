@@ -1,72 +1,11 @@
 import React from 'react';
-import Wavify from 'react-wavify';
 import Homebutton from '../components/Homebutton';
 import LazyLoad from 'react-lazyload';
 
 function Working_Welcome(props) {
     return (
         <div className="container-fluid px-lg-5 px-md-5 position-relative">
-            {/* Wave animation as background */}
-            <Wavify
-                className="wave-background"
-                fill="#A8DF8E"  // Customize color
-                options={{
-                    height: 0,          // Height of the wave
-                    amplitude: 20,       // Amplitude of the wave
-                    speed: 0.55,         // Speed of the wave
-                    points: 4,           // Number of wave points
-                }}
-            />
-            <Wavify
-                className="wave-background"
-                fill="#A8DF8E"  // Customize color
-                options={{
-                    height: 0,          // Height of the wave
-                    amplitude: 20,       // Amplitude of the wave
-                    speed: 0.55,         // Speed of the wave
-                    points: 5,           // Number of wave points
-                }}
-            />
-            <Wavify
-                className="wave-background"
-                fill="#F3FDE8"  // Customize color
-                options={{
-                    height: 50,          // Height of the wave
-                    amplitude: 20,       // Amplitude of the wave
-                    speed: 0.50,         // Speed of the wave
-                    points: 5,           // Number of wave points
-                }}
-            />
-            <Wavify
-                className="wave-background"
-                fill="#F3FDE8"  // Customize color
-                options={{
-                    height: 50,          // Height of the wave
-                    amplitude: 20,       // Amplitude of the wave
-                    speed: 0.50,         // Speed of the wave
-                    points: 5,           // Number of wave points
-                }}
-            />
-            <Wavify
-                className="wave-background"
-                fill="#A1C398"  // Customize color
-                options={{
-                    height: 80,          // Height of the wave
-                    amplitude: 20,       // Amplitude of the wave
-                    speed: 0.50,         // Speed of the wave
-                    points: 6,           // Number of wave points
-                }}
-            />
-            <Wavify
-                className="wave-background"
-                fill="#A1C398"  // Customize color
-                options={{
-                    height: 120,          // Height of the wave
-                    amplitude: 20,       // Amplitude of the wave
-                    speed: 0.50,         // Speed of the wave
-                    points: 6,           // Number of wave points
-                }}
-            />
+           
 
             {/* Content Section */}
             <div className="row">

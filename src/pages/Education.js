@@ -19,47 +19,60 @@ const EducationCard = () => {
     setImageLoaded((prev) => ({ ...prev, [key]: true }));
   };
 
+  const cards = [
+    {
+      src: ED5,
+      alt: "Dishing Diversity Through Our House of Brands",
+      title: "Dishing Diversity Through Our House of Brands",
+      desc: "Food & You is an exciting culinary destination, offering distinct brands in the school canteen, which embody unique culinary concepts. Each brand provides a diverse menu of mouth-watering options, from local comfort food to international cuisines.",
+      key: "ED5",
+      duration: 1000,
+    },
+    {
+      src: ED7,
+      alt: "Health & Wellbeing",
+      title: "Health & Wellbeing",
+      desc: "We work closely with nutritionists to design vibrant meals and snacks that fuel student-athletes with energy-boosting nutrients and flavors, helping them stay motivated.",
+      key: "ED7",
+      duration: 1500,
+    },
+    {
+      src: ED6,
+      alt: "Technology as an Enabler",
+      title: "Technology as an Enabler",
+      desc: "We leverage digital solutions to streamline processes such as ordering and payment, enhancing the student experience and adapting our services to their needs.",
+      key: "ED6",
+      duration: 2000,
+    },
+  ];
+
   return (
-    <div className='container pt-5 mt-5'>
-      <div className='row px-2'>
-        {[{
-          src: ED5, alt: "Dishing Diversity Through Our House of Brands", 
-          title: "Dishing Diversity Through Our House of Brands",
-          desc: "Food & You is an exciting culinary destination, offering distinct brands in the school canteen, which embody unique culinary concepts. Each brand provides a diverse menu of mouth-watering options, from local comfort food to international cuisines.",
-          key: "ED5"
-        }, {
-          src: ED7, alt: "Health & Wellbeing", 
-          title: "Health & Wellbeing",
-          desc: "We work closely with nutritionists to design vibrant meals and snacks that fuel student-athletes with energy-boosting nutrients and flavors, helping them stay motivated.",
-          key: "ED7"
-        }, {
-          src: ED6, alt: "Technology as an Enabler", 
-          title: "Technology as an Enabler",
-          desc: "We leverage digital solutions to streamline processes such as ordering and payment, enhancing the student experience and adapting our services to their needs.",
-          key: "ED6"
-        }].map(({ src, alt, title, desc, key }) => (
+    <div className="container pt-5 mt-5">
+      <div className="row px-2">
+        {cards.map(({ src, alt, title, desc, key, duration }) => (
           <div
-            className='col-md border border-3 rounded-5 me-lg-3 me-md-3 mb-3 zoom-in'
+            className="col-md me-lg-3 me-md-3 mb-3 zoom-in"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration={duration} // Dynamic duration
             key={key}
           >
-            <div className={`image-container ${imageLoaded[key] ? 'loaded' : 'loading'}`}>
+            <div className={`image-container ${imageLoaded[key] ? "loaded" : "loading"}`}>
               <img
                 src={src}
                 alt={alt}
-                className='img-fluid pt-2 pt-md-3 pt-lg-3 pb-md-4 pb-lg-4'
+                className="img-fluid pt-2 pt-md-3 pt-lg-3 pb-md-4 pb-lg-4"
                 onLoad={() => handleImageLoad(key)}
               />
             </div>
-            <h2 className='display-6 fw-bold pt-4'>{title}</h2>
-            <p className='fs-5'>{desc}</p>
+            <h2 className="display-6 fw-bold pt-4">{title}</h2>
+            <p className="fs-5">{desc}</p>
           </div>
         ))}
       </div>
     </div>
   );
 };
+
 
 const Success = () => (
   <div

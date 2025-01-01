@@ -1,5 +1,4 @@
 import React from 'react';
-import Wavify from 'react-wavify';
 import Homebutton from '../components/Homebutton';
 import LazyLoad from 'react-lazyload';
 
@@ -18,86 +17,7 @@ function Working_Home(props) {
                     </LazyLoad>
                 </div>
                 <div className="col-lg align-self-center mt-4 mt-md-4 mt-lg-0">
-                    <Wavify
-                        className="wave-background"
-                        fill="#A8DF8E"  // Customize color
-                        options={{
-                            height: 60,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.55,         // Speed of the wave
-                            points: 4,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#A8DF8E"  // Customize color
-                        options={{
-                            height: 60,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.55,         // Speed of the wave
-                            points: 4,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#F3FDE8"  // Customize color
-                        options={{
-                            height: 200,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.50,         // Speed of the wave
-                            points: 5,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#F3FDE8"  // Customize color
-                        options={{
-                            height: 200,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.50,         // Speed of the wave
-                            points: 5,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#A1C398"  // Customize color
-                        options={{
-                            height: 300,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.50,         // Speed of the wave
-                            points: 6,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#A1C398"  // Customize color
-                        options={{
-                            height: 300,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.50,         // Speed of the wave
-                            points: 6,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#C9F4AA"  // Customize color
-                        options={{
-                            height: 400,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.70,         // Speed of the wave
-                            points: 6,           // Number of wave points
-                        }}
-                    />
-                    <Wavify
-                        className="wave-background"
-                        fill="#C9F4AA"  // Customize color
-                        options={{
-                            height: 400,          // Height of the wave
-                            amplitude: 20,       // Amplitude of the wave
-                            speed: 0.70,         // Speed of the wave
-                            points: 6,           // Number of wave points
-                        }}
-                    />
+
                     <a href="/" className="px-lg-5 px-md-5 nav-link fw-bold pb-3" aria-label="Home">
                         Home
                     </a>

@@ -558,14 +558,41 @@ html,body{
   }
 /* Event Backgrounds */
 .Event_background, .Event_background1, .Event_background2 {
-    position: relative;
-    background-image: url('../images/Work/Backgrounde.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  overflow: hidden; /* Ensures the pseudo-element stays within the container */
 }
 
+.Event_background::before, 
+.Event_background1::before, 
+.Event_background2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/event_space_image/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px); /* Adds the blur effect */
+  z-index: -1; 
+}
+.textbg{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(15px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
 .Event_background {
-    height: 100vh;
+  width: 100%;
 }
 
 .Event_background1 {
