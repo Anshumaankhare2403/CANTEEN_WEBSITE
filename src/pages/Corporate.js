@@ -38,9 +38,7 @@ const HappyUs = () => (
 function Corporate() {
     return (
         <>
-            <div className='Event_background'>
                 <WorkingHome img={<img src={ED2} className="img-fluid rounded" alt="Special occasions at Fusion Spice" />} head="A perfect space for all your special occasions" Bname="Contact Us" />
-            </div>
             <Success />
             <div className='Event_background2'>
                 <HappyUs />

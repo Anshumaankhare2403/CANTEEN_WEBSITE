@@ -557,14 +557,12 @@ html,body{
     opacity: 1;
   }
 /* Event Backgrounds */
-.Event_background, .Event_background1, .Event_background2 {
+.Event_background {
   position: relative;
   overflow: hidden; /* Ensures the pseudo-element stays within the container */
 }
 
-.Event_background::before, 
-.Event_background1::before, 
-.Event_background2::before {
+.Event_background::before {
   content: '';
   position: absolute;
   top: 0;
