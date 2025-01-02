@@ -10,7 +10,7 @@ function ExpertiseSection() {
 
 
         <section>
-          <div class="container border-top border-3">
+          <div class=" border-top border-3">
             <div class="row  g-0 mt-5  d-flex justify-content-center">
               <div class="col-sm col-md-11 col-lg-4 " >
                 <div class="card_main">
