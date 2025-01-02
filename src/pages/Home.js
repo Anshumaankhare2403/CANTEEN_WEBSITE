@@ -18,8 +18,8 @@ function Home() {
 <div className='row mt-5 pt-5'>
 <div className='col'>
     <h1 className='display-5'>We Transform Ordinary Moments into Exceptional Experiences</h1>
-    <p className='mt-4'style={{fontSize:'1.1rem'}}>Our goal is to elevate everyday moments and turn them into extraordinary experiences. Whether it's for corporate professionals, students, healthcare providers, or employees working in remote energy sectors, we are committed to improving daily life and contributing to a brighter future for all. We offer a wide range of solutions, including food & catering, facilities management, technical services, workplace experience, and energy management. Our aim is to create an environment where every meal delights, every workspace motivates, and every service exceeds expectations.</p>
-    <p className='' style={{fontSize:'1.1rem'}}>We take pride in cultivating an inclusive, diverse, fair, and supportive workplace that enhances the well-being of everyone we interact with.</p>
+    <p className='mt-4'style={{fontSize:'1.0rem'}}>Our goal is to elevate everyday moments and turn them into extraordinary experiences. Whether it's for corporate professionals, students, healthcare providers, or employees working in remote energy sectors, we are committed to improving daily life and contributing to a brighter future for all. We offer a wide range of solutions, including food & catering, facilities management, technical services, workplace experience, and energy management. Our aim is to create an environment where every meal delights, every workspace motivates, and every service exceeds expectations.</p>
+    <p className='' style={{fontSize:'1.0rem'}}>We take pride in cultivating an inclusive, diverse, fair, and supportive workplace that enhances the well-being of everyone we interact with.</p>
 </div>
 
             <div className='col-md'>

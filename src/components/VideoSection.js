@@ -5,21 +5,19 @@ import LazyLoad from 'react-lazyload';
 
 function VideoSection() {
   return (
-    <section 
-      className="container-fluid video-container position-relative" 
-      id="home"
-    >
+    <section className="container-fluid video-container position-relative" id="home">
       <div className="row d-none d-sm-block"> {/* Hide on small screens */}
         <div className="col-12">
           <div className="video-shadow" aria-label="Background video of Fusion Spice services">
             <LazyLoad height={360} offset={100}>
-              <video 
-                autoPlay 
-                muted 
-                loop 
-                className="w-100 video-opacity" 
-                playsInline 
-                preload="metadata"
+              <video
+                autoPlay
+                muted
+                loop
+                className="w-100 video-opacity"
+                playsInline
+                preload="auto"
+                aria-label="Background Video"
               >
                 <source src={backgroundVideo} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -28,7 +26,7 @@ function VideoSection() {
           </div>
         </div>
       </div>
-      
+
       {/* Dark Overlay to make the background video slightly darker */}
       <div className="glass-overlay text-center">
         <div className="animate__bounceIn">
