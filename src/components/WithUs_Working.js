@@ -12,7 +12,7 @@ function WithUs_Working(props) {
             {/* SEO-optimized title */}
             <p className='display-5 text-center fw-bold pb-5'>{props.title}</p>
             
-            <div className='row mt-2 pt-2'>
+            <div className='row mt-2 pt-2 '>
                 <div className='col-lg col-md' data-aos="fade-up-right" data-aos-duration="2000">
                     <div className='px-lg-5 px-md-0'>
                         {/* Lazy loading for images in props.col1 */}

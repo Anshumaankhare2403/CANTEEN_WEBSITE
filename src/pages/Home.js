@@ -1,17 +1,34 @@
 import React, { Suspense } from 'react';
-
+import HomeImage from '../assets/images/home/Image.png';
 const VideoSection = React.lazy(() => import('../components/VideoSection'));
 const MissionValues = React.lazy(() => import('../components/MissionValues'));
 const TeamSection = React.lazy(() => import('../components/TeamSection'));
 const SuccessStories = React.lazy(() => import('../components/SuccessStories'));
 const SafetySection = React.lazy(() => import('../components/SafetySection'));
 const ExpertiseSection = React.lazy(() => import('../components/ExpertiseSection'));
+const Client = React.lazy(() => import('../components/Client'));
 // const Testimonials = React.lazy(()=> import( '../components/Testimonials'));
 function Home() {
     return (
         <>
             <Suspense fallback={<p>loading...</p>}>
                 <VideoSection />
+            </Suspense>
+<div className='container'>
+<div className='row mt-5 pt-5'>
+<div className='col'>
+    <h1 className='display-5'>We Transform Ordinary Moments into Exceptional Experiences</h1>
+    <p className='mt-4'style={{fontSize:'1.1rem'}}>Our goal is to elevate everyday moments and turn them into extraordinary experiences. Whether it's for corporate professionals, students, healthcare providers, or employees working in remote energy sectors, we are committed to improving daily life and contributing to a brighter future for all. We offer a wide range of solutions, including food & catering, facilities management, technical services, workplace experience, and energy management. Our aim is to create an environment where every meal delights, every workspace motivates, and every service exceeds expectations.</p>
+    <p className='' style={{fontSize:'1.1rem'}}>We take pride in cultivating an inclusive, diverse, fair, and supportive workplace that enhances the well-being of everyone we interact with.</p>
+</div>
+
+            <div className='col-md'>
+            <img src={HomeImage} class="img-fluid" alt="..."/>
+            </div>
+            </div>
+</div>
+            <Suspense fallback={<p>loading...</p>}>
+                <Client />
             </Suspense>
             <Suspense fallback={<p>loading...</p>}>
                 <MissionValues />

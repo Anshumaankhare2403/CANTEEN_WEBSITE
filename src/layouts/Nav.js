@@ -11,7 +11,7 @@ function Nav() {
 
   return (
     <header className='nav_sticky'>
-      <nav className="navbar navbar-expand-lg body shadow-lg fixed-top rounded-bottom">
+      <nav className="navbar navbar-expand-lg body shadow-lg fixed-top ">
         <div className="container">
           <a className="navbar-brand fw-bold animate__bounceIn" href="/" aria-label="Fusion Spice - Home">
             <img src={Logo1} alt="Fusion Spice Logo" width="50" height="50" />
