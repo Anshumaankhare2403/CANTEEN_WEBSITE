@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazyload';
 
 function Working_Welcome(props) {
     return (
-        <div className="container-fluid px-lg-5 px-md-5 position-relative">
+        <div className="container px-lg-5 px-md-5 position-relative">
            
 
             {/* Content Section */}

@@ -12,7 +12,7 @@ const Success = () => (
         <img src='https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg' className='img-fluid w-100' alt='A beautifully set event space managed by Fusion Spice' />
       </div>
       <div className='col-lg col-md ms-lg-5'>
-        <h2 className='display-6 fw-bold'>Unlock the Key to Event Space Success</h2>
+        <h2 className='display-4'>Unlock the Key to Event Space Success</h2>
         <p className='fs-5'>
           There are venues, and then there are Fusion Spice-managed event spaces. What sets us apart is our deep understanding of what works best for event organizers and guests.
         </p>
@@ -56,7 +56,7 @@ function EventSpaces() {
           {/* Content */}
           <div className="row pt-3 px-3 p-5 border border-3">
             <div className="col-lg p-3 align-self-center mt-4 mt-md-4 mt-lg textbg shadow-lg">
-              <p className="display-2 px-lg-5 px-md-5 fw-bold text-capitalize" style={{ color: "black" }}>
+              <p className="display-1 px-lg-5 px-md-5  text-capitalize" style={{ color: "black" }}>
                 A perfect space for all your special occasions
               </p>
             </div>
@@ -70,18 +70,18 @@ function EventSpaces() {
         <div className="album">
           <div className="responsive-container-block bg">
             <div className="responsive-container-block img-cont">
-              <img className="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg" alt="Widget 1"/>
-              <img className="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.5.svg" alt="Widget 2"/>
-              <img className="img img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.6.svg" alt="Widget 3"/>
+              <img className="img" src="https://images.unsplash.com/photo-1653821355793-80142f9c5063?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Widget 1"/>
+              <img className="img" src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Widget 2"/>
+              <img className="img img-last" src="https://images.unsplash.com/photo-1653821355168-144695e5c0e6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Widget 3"/>
             </div>
             <div className="responsive-container-block img-cont">
-              <img className="img img-big" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.11.svg" alt="Widget 4"/>
-              <img className="img img-big img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.10.svg" alt="Widget 5"/>
+              <img className="img img-big" src="https://images.unsplash.com/photo-1648297346835-8a7f7dd44528?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 4"/>
+              <img className="img img-big img-last" src="https://images.unsplash.com/photo-1485178075098-49f78b4b43b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 5"/>
             </div>
             <div className="responsive-container-block img-cont">
-              <img className="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.7.svg" alt="Widget 6"/>
-              <img className="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.8.svg" alt="Widget 7"/>
-              <img className="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.9.svg" alt="Widget 8"/>
+              <img className="img" src="https://images.unsplash.com/photo-1628578569073-8ee77295315d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 6"/>
+              <img className="img" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 7"/>
+              <img className="img" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 8"/>
             </div>
           </div>
         </div>

@@ -130,7 +130,7 @@ function Education() {
     <>
       <div data-aos="fade-up" data-aos-duration="2000">
         <WorkingHome
-          img={<img src={ED2} className="img-fluid rounded" alt="Working Together to Support Every Student’s Journey" />}
+          img={<img src="https://images.unsplash.com/photo-1525026198548-4baa812f1183?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JvdXAlMjBvZiUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D" className="img-fluid rounded w-100" alt="Working Together to Support Every Student’s Journey" />}
           head="Nurturing Growth-Centric Educational Communities"
           Bname="Contact Us"
           link="/contact"
