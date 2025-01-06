@@ -40,9 +40,9 @@ function Nav() {
                 <li className="nav-item pe-3 pb-1 pb-md-0 pb-lg-0">
                   <a className="nav-link active fw-bold nav_a animate__bounceIn" aria-current="page" href="/about">About</a>
                 </li>
-                <li className="nav-item pe-3 pb-1 pb-md-0 pb-lg-0">
+                {/* <li className="nav-item pe-3 pb-1 pb-md-0 pb-lg-0">
                   <a className="nav-link active fw-bold nav_a animate__bounceIn" href="/services">Our Services</a>
-                </li>
+                </li> */}
                 <li className="nav-item pe-3 pb-1 pb-md-0 pb-lg-0">
                   <a className="nav-link active fw-bold nav_a animate__bounceIn" href="/working">Working at Fusion Spice</a>
                 </li>

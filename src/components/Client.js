@@ -10,7 +10,7 @@ function Client() {
   return (
     <>
       <div className="container  " >
-        <h1 className="text-center pb-3 mt-5 animate__bounceIn mission-heading" >Industries We Serve</h1>
+        <h1 className="text-center pb-3 mt-5 display-3 animate__bounceIn " >Industries We Serve</h1>
 
         {/* Desktop View */}
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 border-top  border-3 pt-5 pb-5 d-none d-lg-flex d-md-flex d-print-none">

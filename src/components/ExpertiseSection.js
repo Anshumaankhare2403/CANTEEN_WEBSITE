@@ -4,7 +4,7 @@ function ExpertiseSection() {
   return (
     <>
       <div className="container mt-5 mb-5 ">
-        <h1 className='display-5 fw-bold text-center'>Our Expertise</h1>
+        <h1 className='display-3 text-center'>Our Expertise</h1>
 
 
 

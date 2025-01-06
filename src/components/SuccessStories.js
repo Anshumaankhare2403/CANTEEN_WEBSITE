@@ -18,7 +18,7 @@ function SuccessStories() {
 
   return (
     <section className="container pb-5 mb-5 ">
-      <h1 className="display-5 fw-bold text-center">Success Stories</h1>
+      <h1 className="display-3 text-center">Success Stories</h1>
       <div className="row border-top border-3 pt-5">
         
         {/* Success Story 1: Growing Business */}

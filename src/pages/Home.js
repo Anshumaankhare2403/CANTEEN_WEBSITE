@@ -68,7 +68,7 @@ function Home() {
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+                                            <p>google servers</p>
                                         </div>
                                         <div class="info">
                                             <div class="image">
@@ -81,7 +81,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 -mt-60">
+                                <div class="col-lg-4 col-md-6 mt-60">
                                     <div class="single-testimonial wow fadeInUp" data-wow-delay=".4s">
                                         <div class="rating" style={{ color: '#E96A20' }}>
                                         <i class="fa-solid fa-star"></i>
@@ -91,7 +91,7 @@ function Home() {
                                         <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+                                            <p>google servers</p>
                                         </div>
                                         <div class="info">
                                             <div class="image">
@@ -114,7 +114,7 @@ function Home() {
                                         <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+                                            <p>google servers</p>
                                         </div>
                                         <div class="info">
                                             <div class="image">
@@ -137,7 +137,7 @@ function Home() {
                                         <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+                                            <p>google servers</p>
                                         </div>
                                         <div class="info">
                                             <div class="image">
@@ -160,7 +160,7 @@ function Home() {
                                         <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+                                            <p>google servers</p>
                                         </div>
                                         <div class="info">
                                             <div class="image">
@@ -183,7 +183,7 @@ function Home() {
                                         <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+                                            <p>google servers</p>
                                         </div>
                                         <div class="info">
                                             <div class="image">

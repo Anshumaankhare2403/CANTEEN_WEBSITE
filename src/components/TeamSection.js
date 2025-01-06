@@ -12,10 +12,11 @@ function TeamSection() {
 
   return (
     <section className="container mb-5 pb-5">
-      <h1 className="fw-bold text-center">Our Team</h1>
-      <div className="row border-top border-3">
-        <div className="col-md d-flex align-items-center">
-          <p className="mission-text">
+      <div className="row ">
+        <div className="col-md mt-5">
+      <h1 className="display-3">Our Team</h1>
+
+          <p className="mission-text ">
             Our team is our greatest asset. At Fusion Spice Hospitality, our team is a dynamic force, 
             blending passion, talent, and expertise to create unforgettable experiences for our guests. 
             With over 300 dedicated professionals, our chefs innovate with flair, crafting culinary delights 

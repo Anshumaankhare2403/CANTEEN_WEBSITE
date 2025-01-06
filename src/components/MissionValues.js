@@ -11,8 +11,7 @@ function MissionValues() {
 
   return (
     <section className="container mt-5 pb-5">
-      <h1 className="fw-bold text-center mission-heading">Mission and Values</h1>
-      <div className="row border-top border-3 pt-2 pb-4">
+      <div className="row  pt-2 pb-4">
         <div className="col-md-6 mb-2">
           {/* Lazy load the image with a blur effect initially */}
           <img
@@ -23,7 +22,9 @@ function MissionValues() {
             onLoad={handleImageLoad}
           />
         </div>
-        <div className="col-md-6 d-flex align-items-center">
+        <div className="col-md-6 pt-5 ">
+        <h1 className="  display-3">Mission and Values</h1>
+
           <p className="mission-text">
             The goal of Fusion Spice is to provide dining experiences that go beyond
             simple meals and promote wellbeing and a sense of community. Our
