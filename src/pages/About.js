@@ -3,7 +3,7 @@ import About_Image from "../assets/images/Logo/Logo.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import Scroller from '../components/Scollra'
+// import Scroller from '../components/Scollra'
 function About() {
     useEffect(() => {
         AOS.init();
