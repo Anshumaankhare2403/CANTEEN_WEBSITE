@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ED2 from '../assets/images/Eduction/ed2.png';
+// import ED2 from '../assets/images/Eduction/ed2.png';
 import ED5 from '../assets/images/Eduction/E3.png';
 import ED6 from '../assets/images/Eduction/E4.png';
 import ED7 from '../assets/images/Eduction/E5.png';
