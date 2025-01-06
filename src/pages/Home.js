@@ -46,14 +46,14 @@ function Home() {
                 <ExpertiseSection />
             </Suspense>
             <Suspense fallback={<p>loading...</p>}>
-                <div className='mt-5'>
+                <div className='mt-5 pt-5'>
                     <section id="testimonial" class="testimonial-section img-bg pt-150 pb-40">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 pb-5">
                                     <div class="section-title mb-60 text-center">
                                         <span class="wow fadeInUp" data-wow-delay=".2s">Testimonials</span>
-                                        <h1 class="wow fadeInUp" data-wow-delay=".4s">What Our Users Says</h1>
+                                        <h1 class="wow display-3" data-wow-delay=".4s">What Our Users Says</h1>
                                     </div>
                                 </div>
                             </div>
