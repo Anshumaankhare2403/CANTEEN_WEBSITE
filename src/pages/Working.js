@@ -1,4 +1,4 @@
-import React, {useEffect}from 'react';
+import React from 'react';
 // import { Helmet } from 'react-helmet'; // Importing Helmet for SEO
 import WorkingHome from '../components/Working_Home';
 import WithUsWorking from '../components/WithUs_Working';
@@ -7,8 +7,7 @@ import WorkingWelcome from '../components/Working_Welcome';
 import Work1 from '../assets/images/Work/Work1.png';
 import Work2 from '../assets/images/Work/Work2.png';
 import Work3 from '../assets/images/Work/Work3.png';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const CoreValues = () => (
   <div className='container pt-5 mt-5 ' >
@@ -35,9 +34,7 @@ const CoreValues = () => (
 );
 
 function Working() {
-  useEffect(() => {
-    AOS.init();
-}, []);
+
   return (
     <>
   

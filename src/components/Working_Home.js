@@ -4,12 +4,12 @@ import LazyLoad from 'react-lazyload';
 
 function Working_Home(props) {
     return (
-        <div className="container  px-lg-5 pt-5 mt-5 pb-5 rounded-bottom rounded position-relative">
+        <div className="container-fluid aboutBack  px-lg-5 pt-5 mt-5 pb-5 rounded-bottom rounded position-relative">
             {/* Wave animation as background */}
 
 
             {/* Content */}
-            <div className="row pt-3">
+            <div className="row pt-3 content1">
                 <div className="col-lg-6">
                     {/* Lazy loading for the image */}
                     <LazyLoad height={200} offset={100}>

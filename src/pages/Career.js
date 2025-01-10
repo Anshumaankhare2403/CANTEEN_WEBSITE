@@ -1,13 +1,8 @@
+import React, { useState } from 'react';
 
-
-import React, { useState, useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Career() {
-    useEffect(() => {
-        AOS.init();
-    }, []);
+
 
     const [formData, setFormData] = useState({
         name: "",
@@ -142,7 +137,7 @@ function Career() {
     };
 
     return (
-        <div className="container pt-5 mt-5 mb-5 px-4 " data-aos="fade-up" data-aos-duration="1000" id='career'>
+        <div className="container pt-5 mt-5 mb-5 px-4 " id='career'>
             <h1 className="text-center pb-3">Career Form</h1>
 
             <div className='row border-top border-2  d-flex justify-content-center '>

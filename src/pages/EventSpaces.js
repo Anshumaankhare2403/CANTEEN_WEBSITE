@@ -56,7 +56,7 @@ function EventSpaces() {
           {/* Content */}
           <div className="row pt-3 px-3 p-5 border border-3">
             <div className="col-lg p-3 align-self-center mt-4 mt-md-4 mt-lg textbg shadow-lg">
-              <p className="display-1 px-lg-5 px-md-5  text-capitalize" style={{ color: "black" }}>
+              <p className="display-2 px-lg-5 px-md-5 fw-bold  text-capitalize" style={{ color: "black" }}>
                 A perfect space for all your special occasions
               </p>
             </div>
@@ -72,6 +72,8 @@ function EventSpaces() {
             <div className="responsive-container-block img-cont">
               <img className="img" src="https://images.unsplash.com/photo-1653821355793-80142f9c5063?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Widget 1"/>
               <img className="img" src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Widget 2"/>
+            <img className="img" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 7"/>
+              
               <img className="img img-last" src="https://images.unsplash.com/photo-1653821355168-144695e5c0e6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Widget 3"/>
             </div>
             <div className="responsive-container-block img-cont">
@@ -79,9 +81,11 @@ function EventSpaces() {
               <img className="img img-big img-last" src="https://images.unsplash.com/photo-1485178075098-49f78b4b43b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 5"/>
             </div>
             <div className="responsive-container-block img-cont">
-              <img className="img" src="https://images.unsplash.com/photo-1628578569073-8ee77295315d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 6"/>
-              <img className="img" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 7"/>
-              <img className="img" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 8"/>
+            <img className="img" src="https://images.unsplash.com/photo-1628578569073-8ee77295315d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 6"/>
+            <img className="img" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 7"/>
+            <img className="img" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 8"/>
+            <img className="img" src="https://images.unsplash.com/photo-1628578569073-8ee77295315d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" alt="Widget 6"/>
+            
             </div>
           </div>
         </div>

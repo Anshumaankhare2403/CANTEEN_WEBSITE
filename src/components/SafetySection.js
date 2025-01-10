@@ -11,7 +11,7 @@ function SafetySection() {
   };
 
   return (
-    <section className="container mt-5">
+    <section className="container mt-lg-5">
       <div className="row pt-5 pb-4">
         <div className="col-md-5 mb-4">
           <LazyLoad height={200} offset={100}>

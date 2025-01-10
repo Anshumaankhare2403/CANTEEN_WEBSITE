@@ -438,7 +438,7 @@ html,body{
     overflow: hidden;
     top: 0;
     right: 0;
-    background-color: #212529;
+    background-color: #e80c0c;
     border-radius: 0 4px 0 32px;
   }
   
@@ -468,7 +468,7 @@ html,body{
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: #212529;
+    background: #e80c0c;
     height: 32px;
     width: 32px;
     border-radius: 32px;
