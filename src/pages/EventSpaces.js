@@ -33,14 +33,14 @@ const HappyUs = () => (
       <div className='col'>
         <h2 className='display-4 fw-bold py-md-4 py-lg-4'>Happy Clients, Happy Us</h2>
         <p className='fs-3 pt-4 pt-lg-0 pt-md-0'>
-          We are delighted to unveil a transformative collaboration with Fusion Spice that will reshape our educational landscape. This collaboration aligns seamlessly with our strategic priorities, aiming to provide a world-class campus experience for our students.
+        We are excited to unveil a transformative collaboration with Fusion Spice, designed to reshape our educational landscape and reimagine event spaces. Together, we aim to create innovative solutions that make gatherings more dynamic, safe, and enjoyable for all.
         </p>
-        <div className='border-start border-primary border-2 mt-lg-5 mt-md-5'>
+        {/* <div className='border-start border-primary border-2 mt-lg-5 mt-md-5'>
           <p className='ps-4'>
             <span className='fs-5 fw-bold'>Prof. Deepak Kumar Srivastava</span><br />
             <span>Director, IIM Ranchi</span>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

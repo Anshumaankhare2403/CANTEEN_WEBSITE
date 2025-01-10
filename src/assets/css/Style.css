@@ -893,3 +893,38 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
     margin-top: auto; /* Push the footer to the bottom */
   }
+
+
+  .aboutBack {
+    height: 40%;
+    color: white;
+    position: relative;
+    background-image: url('../images/home/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+.aboutBack::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.36);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.0px);
+-webkit-backdrop-filter: blur(17.7px);
+border: 1px solid rgba(0, 0, 0, 0.43); /* Apply blur to the background */
+  z-index: 0; /* Ensure it's behind the content */
+}
+
+.content1 {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the blurred background */
+  color: white; /* Adjust text color for contrast */
+  padding: 20px;
+}
+  

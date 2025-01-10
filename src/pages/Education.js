@@ -110,12 +110,7 @@ const HappyUs = () => (
       <div className='col'>
         <h2 className='display-4 fw-bold py-md-4 py-lg-4'>Happy Clients, Happy Us</h2>
         <p className='display-6 pt-4 pt-lg-0 pt-md-0'>We are delighted to unveil a transformative collaboration with Fusion Spice that will reshape our educational landscape.</p>
-        <div className='border-start border-primary border-2 mt-lg-5 mt-md-5'>
-          <p className='ps-4'>
-            <span className='fs-5 fw-bold'>Prof. Deepak Kumar Srivastava</span><br />
-            <span>Director, IIM Ranchi</span>
-          </p>
-        </div>
+
       </div>
     </div>
   </div>
