@@ -34,7 +34,7 @@ function Nav() {
                 Fusion Spice
               </a>
               <div className="d-lg-none ms-auto" style={{width:'35%'}}>
-            <a className="nav-link active fw-bold text-light rounded-pill bg-danger text-center zoom-out fs-5 " href="/contact">
+            <a className="nav-link active fw-bold text-light rounded-pill bg-danger text-center zoom-out fs-6 " href="/contact">
               Contact Us
             </a>
           </div>
