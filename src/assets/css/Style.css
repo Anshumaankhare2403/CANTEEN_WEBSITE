@@ -242,6 +242,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10vh;
 }
 
 /* Video Shadow for background */
@@ -304,7 +305,7 @@ html,body{
 @media (max-width: 480px) {
   /* For mobile screens */
   .video-container {
-      height: 60vh; /* Reduce video height further on smaller screens */
+      height: 100vh; /* Reduce video height further on smaller screens */
   }
 
   .video-opacity {

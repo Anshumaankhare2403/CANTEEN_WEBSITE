@@ -1,35 +1,15 @@
 import React from 'react';
-import ED1 from '../assets/images/Eduction/ed1.png';
-import ED2 from '../assets/images/Eduction/ed2.png';
+
 import WorkingHome from '../components/Working_Home';
 
-const Success = () => (
-  <div className='container mt-4 mt-md-5 mt-lg-5 mb-lg-5 mb-md-5 rounded px-4'>
-    <div className='row p-lg-5 p-md-5 border border-2'>
-      <div className='col-lg col-md align-self-center'>
-        <img src={ED1} srcSet={`${ED1} 1x, ${ED2} 2x`} className="img-fluid" alt="Event space success with Fusion Spice" />
-      </div>
-      <div className='col-lg col-md ms-lg-5'>
-        <h1 className='display-6 fw-bold'>Unlock the Key to Event Space Success</h1>
-        <p className='fs-5'>Fusion Spice-managed event spaces offer exceptional venues tailored for success.</p>
-        <p className='fs-5'>Our extensive experience in event management ensures a seamless and memorable experience for every guest.</p>
-        <p className='fs-5'>Explore behind-the-scenes stories, new trends in event catering, and our impactful solutions.</p>
-      </div>
-    </div>
-  </div>
-);
+
 
 const HappyUs = () => (
-  <div className="container my-5 px-lg-5">
+  <div className="container mt-5 mb-5 pb-5 px-lg-5">
     <div className='row'>
-      <div className='col'>
+      <div className='col-md'>
         <h2 className='display-4 fw-bold py-md-4 py-lg-4'>Happy Clients, Happy Us</h2>
-        <p className='fs-3 pt-4 pt-lg-0 pt-md-0'>We are delighted to announce a transformative collaboration with Fusion Spice, redefining our educational landscape while offering the perfect space for all your special occasions. Together, we are creating innovative solutions that combine learning, celebration, and memorable experiences.</p>
-        {/* <div className='border-start border-primary border-2 mt-lg-5 mt-md-5'>
-          <p className='ps-4'><span className='fs-5 fw-bold'>Prof. Deepak Kumar Srivastava</span><br />
-            <span>Director, IIM Ranchi</span>
-          </p>
-        </div> */}
+        <p className='fs-3 pt-4 pt-lg-0 pt-md-0'>The Fusion Spice team maintains a strong connection with our employees, understanding their food preferences and prioritizing their comfort and satisfaction. They consistently deliver next-level customer convenience, ensuring our employees are well cared for by experienced, attentive, and capable professionals. We are grateful for their dedication and exceptional service.</p>
       </div>
     </div>
   </div>
@@ -51,27 +31,27 @@ function Corporate() {
       </div>
       <div className="container mt-5 pt-lg-5 mb-5 pb-5">
                 <div className="row d-flex align-items-center ">
-                    <div className=" col ">
+                    <div className=" col-md pb-4 ">
                         <h1 className="display-2">Environments We Serve</h1>
                     </div>
                     <div className="col-md ">
                         <div className="row">
-                            <div className="col-md pt-2">
+                            <div className="col-md pt-3 p-4 ">
                             <i class="fa-solid fa-industry display-1"></i>
                                 <h3 className="fs-3 fw-bold mt-4">Industries and Manufacturing Facilities</h3>
                             </div>
-                            <div className="col-md pt-2">
+                            <div className="col-md pt-3 p-4">
                             <i class="fa-solid fa-gears display-1"></i>
                                 <h3 className="fs-3 fw-bold mt-4">Automotive and Auto Components</h3>
                             </div>
 
                         </div>
                         <div className="row pt-lg-5 ">
-                            <div className="col-md pt-2">
+                            <div className="col-md pt-3 p-4">
                             <i class="fa-solid fa-laptop display-1"></i>
                                 <h3 className="fs-3 fw-bold mt-4">IT/ITES & Global Delivery Centers</h3>
                             </div>
-                            <div className="col-md pt-2">
+                            <div className="col-md pt-3 p-4">
                                 <i className="fa-solid fa-briefcase display-1"></i>
                                 <h3 className="fs-3 fw-bold mt-4">Large Corporate Conglomerates</h3>
                             </div>
@@ -81,10 +61,18 @@ function Corporate() {
                     </div>
                 </div>
             </div>
-      <Success />
-      <div className='Event_background2'>
+      {/* <Success /> */}
+      <div className='container-fluid aboutBack mt-5 pt-5 '>
+                <div className='row px-2 px-lg-5 pt-lg-4 pb-5 content1'>
+                    <div className='col-md px-lg-5'>
+                        <h1 className='display-4 fw-bold text-center px-lg-5 text-capitalize lead'>Spreading joy through our expertly crafted food brands and personalized services.</h1>
+                    </div>
+                    
+                </div>
+            </div>
+
+
         <HappyUs />
-      </div>
     </>
   );
 }

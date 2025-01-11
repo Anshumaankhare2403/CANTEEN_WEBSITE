@@ -98,6 +98,7 @@ function Contact() {
   };
 
   return (
+    <>
     <div className="container pt-lg-5 mt-lg-4"  id='contact'>
       <h1 className="text-center pb-3 pt-5">Contact Us</h1>
       <div className="row pt-2 border-bottom border-top border-3 pb-5" >
@@ -199,6 +200,65 @@ function Contact() {
         </div>
       </div>
     </div>
+    {/* cards */}
+    <div className="container my-5">
+      <div className="row gy-4">
+
+        {/* Address */}
+        <div className="col-md-6">
+          <div className="p-4  shadow rounded d-flex align-items-center">
+            <div className="icon me-3 text-warning">
+              <i className="fas fa-map-marker-alt fa-2x"></i>
+            </div>
+            <div>
+              <h5 className="mb-1">Address</h5>
+              <p className="mb-0">205, Second floor, Winners Court, Lullanagar, Pune, Maharashtra (411040)</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Call Us */}
+        <div className="col-md-6">
+          <div className="p-4  shadow rounded d-flex align-items-center">
+            <div className="icon me-3 text-warning">
+              <i className="fas fa-phone fa-2x"></i>
+            </div>
+            <div>
+              <h5 className="mb-1">Call Us</h5>
+              <p className="mb-0">+919371012120, +917089577790</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Email Us */}
+        <div className="col-md-6">
+          <div className="p-4  shadow rounded d-flex align-items-center">
+            <div className="icon me-3 text-warning">
+              <i className="fas fa-envelope fa-2x"></i>
+            </div>
+            <div>
+              <h5 className="mb-1">Email Us</h5>
+              <p className="mb-0">info@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Opening Hours */}
+        <div className="col-md-6">
+          <div className="p-4  shadow rounded d-flex align-items-center">
+            <div className="icon me-3 text-warning">
+              <i className="fas fa-clock fa-2x"></i>
+            </div>
+            <div>
+              <h5 className="mb-1">Opening Hours</h5>
+              <p className="mb-0">Monday to Saturday: 10:30 AM - 7:30 PM</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </>
   );
 }
 
