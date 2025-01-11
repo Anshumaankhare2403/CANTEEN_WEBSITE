@@ -99,7 +99,7 @@ function Contact() {
 
   return (
     <>
-    <div className="container pt-lg-5 mt-lg-4"  id='contact'>
+    <div className="container pt-5 mt-5"  id='contact'>
       <h1 className="text-center pb-3 pt-5">Contact Us</h1>
       <div className="row pt-2 border-bottom border-top border-3 pb-5" >
         <div className="col-md " data-aos="fade-down" data-aos-duration="1000" >

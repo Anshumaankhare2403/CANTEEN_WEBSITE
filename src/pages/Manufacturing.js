@@ -14,20 +14,20 @@ function EnergyandResources() {
                 <meta name="robots" content="index, follow" />
             </Helmet>
             
-            <WorkingHome head="Making Remote Living Safe and Enjoyable" Bname="Contact Us" />
+            <WorkingHome head="Making Remote Living Safe and Enjoyable" Bname="Contact Us" link="/contact" />
 
             <div className='container pt-5 mt-5'>
                 <div className='row px-lg-5 px-md-5'>
                     <div className='col px-lg-5 px-md-5'>
-                        <h1 className='Working_font fw-bold'>Fuelling Your Operations</h1>
+                        <h1 className='Working_font fw-bold'>Powering Your Operations</h1>
                         <p className='fs-5 pt-4'>
-                            We deliver tailored support services that meet the evolving needs of today's energy leaders and their teams. Whether you're at a refinery, offshore, onshore, or in an office, our 24/7 commitment to excellence ensures your teams are comfortable, safe, and strong.
+                        We provide customized support services that cater to the dynamic needs of today's energy leaders and their teams. Whether you're at a refinery, offshore, onshore, or in an office, our 24/7 dedication to excellence guarantees that your teams stay comfortable, safe, and resilient.
                         </p>
                         <p className='fs-5'>
-                            Our comprehensive services cover everything from food, laundry, and housekeeping to health and wellness, camp construction, and maintenance. We also handle landscaping, technical jobs, and infrastructure needs like internet services and sports arena maintenance.
+                            Our comprehensive services cover everything from food, laundry, and housekeeping to health and wellness, camp construction, and maintenance. We also manage landscaping, technical services, and infrastructure needs, including internet connectivity and sports arena maintenance.
                         </p>
                         <p className='fs-5'>
-                            With a relentless focus on zero accidents, we embed safety at every level. Partner with Sodexo to experience the pride and confidence of working with a team that understands the unique demands of the energy sector and delivers solutions that drive efficiency and satisfaction.
+                        With an unwavering commitment to zero accidents, safety is integrated into every aspect of our operations. Partner with Fusion Spice to experience the pride and confidence of working with a team that understands the unique demands of the energy sector and delivers solutions that enhance efficiency and satisfaction.
                         </p>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ function EnergyandResources() {
             </div>
 
             <div className='mt-5 pt-5 pb-5 mb-5'>
-                <WorkingWelcome head="Welcome. You Are in Good Company." par="Come be a part of something greater. It all starts with you." />
+                <WorkingWelcome head="Welcome. You Are in Good Company." par="Come be a part of something greater. It all starts with you."  link="/contact" />
             </div>
         </>
     );

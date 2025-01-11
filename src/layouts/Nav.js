@@ -33,6 +33,12 @@ function Nav() {
                 <img src={Logo1} alt="Fusion Spice Logo" width="50" height="50" />
                 Fusion Spice
               </a>
+              <div className="d-lg-none ms-auto" style={{width:'40%'}}>
+            <a className="nav-link active fw-bold text-light rounded-pill bg-danger text-center zoom-out fs-5 " href="/contact">
+              Contact Us
+            </a>
+          </div>
+
               <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body text-center">
@@ -60,17 +66,12 @@ function Nav() {
                 <li className="nav-item bgbg rounded-pill text-center zoom-out animate__bounceIn d-none d-lg-block d-print-block" style={{ width: "100px" }}>
                   <a className="nav-link active fw-bold text-light" aria-current="page" href="/contact">Contact Us</a>
                 </li>
-                {/* <Button variant="contained " style={{
-                  backgroundColor: "#6200ea", // Custom background color
-                  color: "white",            // Custom text color
-                  padding: "10px 20px",      // Padding
-                  fontSize: "16px",          // Font size
-                  borderRadius: "8px",       // Rounded corners
-                  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Shadow effect
-                }}>Contained</Button> */}
+
 
               </ul>
+              
             </div>
+            
           </div>
         </div>
       </nav>
