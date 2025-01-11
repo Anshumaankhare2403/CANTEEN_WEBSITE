@@ -58,7 +58,7 @@ function Contact() {
 
     // Submit to Google Apps Script
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbzR6-r4sNQ0BVe8XhZs6pFjESaDWWMLsVOMSbhQ1V0uDAAd0wl626GWsilmDzYJvr4H/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbxnwArheovn3sFRUv2K3j8wzJ1751xGt9i5Uyfk6PffjwK7uya0To9CO-98GAKtkcJu/exec', {
         method: "POST",
         body: new FormData(formElement),
       });
@@ -71,7 +71,7 @@ function Contact() {
     // Submit to Web3Forms
     try {
       const formDataObj = new FormData(formElement);
-      formDataObj.append("access_key", "6c52e0fd-8e14-4a52-861e-fd0cebe1f0ee");
+      formDataObj.append("access_key", "4eaa83b4-e41d-4417-9866-22ab8608b26d");
 
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
