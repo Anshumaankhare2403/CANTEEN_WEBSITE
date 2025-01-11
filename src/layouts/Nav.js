@@ -29,11 +29,11 @@ function Nav() {
           </button>
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
-              <a className="navbar-brand fw-bold animate__bounceIn" id="offcanvasNavbarLabel" href="/" aria-label="Fusion Spice - Home">
-                <img src={Logo1} alt="Fusion Spice Logo" width="50" height="50" />
+              <a className="navbar-brand fw-bold animate__bounceIn fs-6" id="offcanvasNavbarLabel" href="/" aria-label="Fusion Spice - Home">
+                <img src={Logo1} alt="Fusion Spice Logo " width="40" height="40" />
                 Fusion Spice
               </a>
-              <div className="d-lg-none ms-auto" style={{width:'40%'}}>
+              <div className="d-lg-none ms-auto" style={{width:'35%'}}>
             <a className="nav-link active fw-bold text-light rounded-pill bg-danger text-center zoom-out fs-5 " href="/contact">
               Contact Us
             </a>
