@@ -23,7 +23,7 @@ function Home() {
 </div>
 
             <div className='col-md'>
-            <img src={HomeImage} class="img-fluid" alt="..."/>
+            <img src={HomeImage} className="img-fluid" alt="..."/>
             </div>
             </div>
 </div>
@@ -47,149 +47,149 @@ function Home() {
             </Suspense>
             <Suspense fallback={<p>loading...</p>}>
                 <div className='mt-5 pt-5'>
-                    <section id="testimonial" class="testimonial-section img-bg pt-150 pb-40">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-6 pb-5">
-                                    <div class="section-title mb-60 text-center">
-                                        <span class="wow fadeInUp" data-wow-delay=".2s">Testimonials</span>
-                                        <h1 class="wow display-3" data-wow-delay=".4s">What Our Users Says</h1>
+                    <section id="testimonial" className="testimonial-section img-bg pt-150 pb-40">
+                        <div className="container">
+                            <div className="row justify-content-center">
+                                <div className="col-lg-6 pb-5">
+                                    <div className="section-title mb-60 text-center">
+                                        <span className="wow fadeInUp" data-wow-delay=".2s">Testimonials</span>
+                                        <h1 className="wow display-3" data-wow-delay=".4s">What Our Users Says</h1>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row testimonial-wrapper">
-                                <div class="col-lg-4 col-md-6 -mt-30">
-                                    <div class="single-testimonial wow fadeInUp" data-wow-delay=".2s">
-                                        <div class="rating" style={{ color: '#E96A20' }}>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
+                            <div className="row testimonial-wrapper">
+                                <div className="col-lg-4 col-md-6 -mt-30">
+                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".2s">
+                                        <div className="rating" style={{ color: '#E96A20' }}>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <p>google servers</p>
                                         </div>
-                                        <div class="info">
-                                            <div class="image">
+                                        <div className="info">
+                                            <div className="image">
                                                 <img src="assets/img/testimonial/testimonial-1.png" alt="" />
                                             </div>
-                                            <div class="text">
+                                            <div className="text">
                                                 <h5>Ena Shah</h5>
                                                 <p>Teacher at Abc School</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 mt-60">
-                                    <div class="single-testimonial wow fadeInUp" data-wow-delay=".4s">
-                                        <div class="rating" style={{ color: '#E96A20' }}>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                <div className="col-lg-4 col-md-6 mt-60">
+                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="rating" style={{ color: '#E96A20' }}>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <p>google servers</p>
                                         </div>
-                                        <div class="info">
-                                            <div class="image">
+                                        <div className="info">
+                                            <div className="image">
                                                 <img src="assets/img/testimonial/testimonial-2.png" alt="" />
                                             </div>
-                                            <div class="text">
+                                            <div className="text">
                                                 <h5>Mrs. Gosh</h5>
                                                 <p>Actor</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-testimonial wow fadeInUp" data-wow-delay=".6s">
-                                        <div class="rating" style={{ color: '#E96A20' }}>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".6s">
+                                        <div className="rating" style={{ color: '#E96A20' }}>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <p>google servers</p>
                                         </div>
-                                        <div class="info">
-                                            <div class="image">
+                                        <div className="info">
+                                            <div className="image">
                                                 <img src="assets/img/testimonial/testimonial-3.png" alt="" />
                                             </div>
-                                            <div class="text">
+                                            <div className="text">
                                                 <h5>John Doe</h5>
                                                 <p>Model</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 -mt-30">
-                                    <div class="single-testimonial wow fadeInUp" data-wow-delay=".2s">
-                                        <div class="rating" style={{ color: '#E96A20' }}>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                <div className="col-lg-4 col-md-6 -mt-30">
+                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".2s">
+                                        <div className="rating" style={{ color: '#E96A20' }}>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <p>google servers</p>
                                         </div>
-                                        <div class="info">
-                                            <div class="image">
+                                        <div className="info">
+                                            <div className="image">
                                                 <img src="assets/img/testimonial/testimonial-4.png" alt="" />
                                             </div>
-                                            <div class="text">
+                                            <div className="text">
                                                 <h5>Jonathan Smith</h5>
                                                 <p>Creative Designer</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 -mt-60">
-                                    <div class="single-testimonial wow fadeInUp" data-wow-delay=".4s">
-                                        <div class="rating" style={{ color: '#E96A20' }}>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                <div className="col-lg-4 col-md-6 -mt-60">
+                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="rating" style={{ color: '#E96A20' }}>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <p>google servers</p>
                                         </div>
-                                        <div class="info">
-                                            <div class="image">
+                                        <div className="info">
+                                            <div className="image">
                                                 <img src="assets/img/testimonial/testimonial-5.png" alt="" />
                                             </div>
-                                            <div class="text">
+                                            <div className="text">
                                                 <h5>Sara A. K.</h5>
                                                 <p>Heroine</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-testimonial wow fadeInUp" data-wow-delay=".6s">
-                                        <div class="rating" style={{ color: '#E96A20' }}>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".6s">
+                                        <div className="rating" style={{ color: '#E96A20' }}>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
+                                        <i className="fa-solid fa-star"></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <p>google servers</p>
                                         </div>
-                                        <div class="info">
-                                            <div class="image">
+                                        <div className="info">
+                                            <div className="image">
                                                 <img src="assets/img/testimonial/testimonial-6.png" alt="" />
                                             </div>
-                                            <div class="text">
+                                            <div className="text">
                                                 <h5>David Smith</h5>
                                                 <p>Businessman</p>
                                             </div>

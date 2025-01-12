@@ -305,7 +305,7 @@ html,body{
 @media (max-width: 480px) {
   /* For mobile screens */
   .video-container {
-      height: 100vh; /* Reduce video height further on smaller screens */
+      height: 70vh; /* Reduce video height further on smaller screens */
   }
 
   .video-opacity {

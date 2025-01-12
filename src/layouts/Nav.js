@@ -60,7 +60,7 @@ function Nav() {
                     <li><a className="dropdown-item" href="/education">Education</a></li>
                     <li><a className="dropdown-item" href="/manufacturing">Manufacturing Facilities</a></li>
                     <li><a className="dropdown-item" href="/eventspace">Event Space</a></li>
-                    <li><a className="dropdown-item" href="/Corporate">Corporate Companies</a></li>
+                    <li><a className="dropdown-item" href="/corporate">Corporate Companies</a></li>
                   </ul>
                 </li>
                 <li className="nav-item bgbg rounded-pill text-center zoom-out animate__bounceIn d-none d-lg-block d-print-block" style={{ width: "100px" }}>

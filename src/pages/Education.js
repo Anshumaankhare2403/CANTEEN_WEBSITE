@@ -76,9 +76,7 @@ const EducationCard = () => {
 
 const Success = () => (
   <div
-    className='container mt-4 mt-md-4 mt-lg-4 mb-lg-5 mb-md-5 px-4'
-    data-aos="fade-right"
-    data-aos-duration="2000"
+    className='container mt-4 mt-md-4 mt-lg-4 mb-lg-5 mb-md-5 px-4 pb-5'
   >
     <div className='row pt-lg-5'>
       <div className='col-lg-5 col-md align-self-center'>
@@ -102,7 +100,7 @@ const Success = () => (
 
 const HappyUs = () => (
   <div
-    className="container my-5 px-lg-5"
+    className="container my-5 px-lg-5 pt-lg-5"
     data-aos="fade-up"
     data-aos-duration="2000"
   >
@@ -123,14 +121,14 @@ function Education() {
 
   return (
     <>
-      <div data-aos="fade-up" data-aos-duration="2000">
+
         <WorkingHome
           img={<img src="https://images.unsplash.com/photo-1525026198548-4baa812f1183?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JvdXAlMjBvZiUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D" className="img-fluid rounded w-100" alt="Working Together to Support Every Student’s Journey" />}
           head="Nurturing Growth-Centric Educational Communities"
           Bname="Contact Us"
           link="/contact"
         />
-      </div>
+
       <div className='container '>
         <div className='row'>
           <h1 className='display-3 pb-5 pt-5'>Collaborating with Schools and Colleges to Enhance Campus Well-being</h1>
