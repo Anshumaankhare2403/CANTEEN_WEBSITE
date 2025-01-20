@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import HomeImage from '../assets/images/Addon/1.png';
+import '../assets/css/reviwe.css';
 const VideoSection = React.lazy(() => import('../components/VideoSection'));
 const MissionValues = React.lazy(() => import('../components/MissionValues'));
 const TeamSection = React.lazy(() => import('../components/TeamSection'));
@@ -17,9 +18,9 @@ function Home() {
             <div className='container'>
                 <div className='row mt-5 pt-5'>
                     <div className='col-md pt-lg-5'>
-                    <h1  className='display-5 d-none d-lg-block '>Transforming the Mundane into Memorable Experiences</h1>
-                    <h1  className='display-1 d-lg-none '>Transforming the Mundane into Memorable Experiences</h1>
-                    <p className='mt-4' style={{ fontSize: '1.3rem' }}>Our mission is to transform everyday experiences into extraordinary moments. We are dedicated to enriching the lives of corporate professionals, students, healthcare workers, and employees in remote energy sectors by providing solutions that improve daily life and shape a brighter future. Our comprehensive offerings include food and catering services, facilities management, technical support, workplace enhancement, and energy optimization.</p>
+                        <h1 className='display-5 d-none d-lg-block '>Transforming the Mundane into Memorable Experiences</h1>
+                        <h1 className='display-1 d-lg-none '>Transforming the Mundane into Memorable Experiences</h1>
+                        <p className='mt-4' style={{ fontSize: '1.3rem' }}>Our mission is to transform everyday experiences into extraordinary moments. We are dedicated to enriching the lives of corporate professionals, students, healthcare workers, and employees in remote energy sectors by providing solutions that improve daily life and shape a brighter future. Our comprehensive offerings include food and catering services, facilities management, technical support, workplace enhancement, and energy optimization.</p>
                         <p className='' style={{ fontSize: '1.3rem' }}>We strive to create environments where every meal brings joy, every workspace inspires productivity, and every service exceeds expectations. At the heart of our approach is a commitment to fostering an inclusive, diverse, and equitable workplace that prioritizes the well-being and satisfaction of everyone we serve.</p>
                     </div>
 
@@ -58,146 +59,83 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
+                            <div class="responsive-container-block big-container">
+                                <div class="responsive-container-block bg">
+                                    <div class="responsive-container-block blocks">
+                                        <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content">
+                                            <p class="text-blk info-block">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                            </p>
+                                            <div class="responsive-container-block person">
+                                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+                                                    <img
+                                                        className="profile-img"
+                                                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg"
+                                                        alt="Profile"
+                                                    />
 
-                            <div className="row testimonial-wrapper">
-                                <div className="col-lg-4 col-md-6 -mt-30">
-                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="rating" style={{ color: '#E96A20' }}>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                        <div className="content">
-                                            <p>google servers</p>
-                                        </div>
-                                        <div className="info">
-                                            <div className="image">
-                                                <img src="assets/img/testimonial/testimonial-1.png" alt="" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Ena Shah</h5>
-                                                <p>Teacher at Abc School</p>
+                                                </div>
+                                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+                                                    <p class="text-blk name">
+                                                        Jane Doe
+                                                    </p>
+                                                    <p class="text-blk desig">
+                                                        CEO
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 mt-60">
-                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="rating" style={{ color: '#E96A20' }}>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                        <div className="content">
-                                            <p>google servers</p>
-                                        </div>
-                                        <div className="info">
-                                            <div className="image">
-                                                <img src="assets/img/testimonial/testimonial-2.png" alt="" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Mrs. Gosh</h5>
-                                                <p>Actor</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".6s">
-                                        <div className="rating" style={{ color: '#E96A20' }}>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                        <div className="content">
-                                            <p>google servers</p>
-                                        </div>
-                                        <div className="info">
-                                            <div className="image">
-                                                <img src="assets/img/testimonial/testimonial-3.png" alt="" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>John Doe</h5>
-                                                <p>Model</p>
+                                        <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content">
+                                            <p class="text-blk info-block">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                            </p>
+                                            <div class="responsive-container-block person">
+                                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+                                                    <img
+                                                        className="profile-img"
+                                                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg"
+                                                        alt="Profile"
+                                                    />
+
+                                                </div>
+                                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+                                                    <p class="text-blk name">
+                                                        Jane Doe
+                                                    </p>
+                                                    <p class="text-blk desig">
+                                                        CEO
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 -mt-30">
-                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="rating" style={{ color: '#E96A20' }}>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                        <div className="content">
-                                            <p>google servers</p>
-                                        </div>
-                                        <div className="info">
-                                            <div className="image">
-                                                <img src="assets/img/testimonial/testimonial-4.png" alt="" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Jonathan Smith</h5>
-                                                <p>Creative Designer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 -mt-60">
-                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="rating" style={{ color: '#E96A20' }}>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                        <div className="content">
-                                            <p>google servers</p>
-                                        </div>
-                                        <div className="info">
-                                            <div className="image">
-                                                <img src="assets/img/testimonial/testimonial-5.png" alt="" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Sara A. K.</h5>
-                                                <p>Heroine</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="single-testimonial wow fadeInUp" data-wow-delay=".6s">
-                                        <div className="rating" style={{ color: '#E96A20' }}>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                        <div className="content">
-                                            <p>google servers</p>
-                                        </div>
-                                        <div className="info">
-                                            <div className="image">
-                                                <img src="assets/img/testimonial/testimonial-6.png" alt="" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>David Smith</h5>
-                                                <p>Businessman</p>
+                                        <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content bottom">
+                                            <p class="text-blk info-block">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                            </p>
+                                            <div class="responsive-container-block person">
+                                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+                                                    <img
+                                                        className="profile-img"
+                                                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors1.svg"
+                                                        alt="Profile"
+                                                    />
+
+                                                </div>
+                                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+                                                    <p class="text-blk name">
+                                                        Jane Doe
+                                                    </p>
+                                                    <p class="text-blk desig">
+                                                        CEO
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </section>
                 </div>

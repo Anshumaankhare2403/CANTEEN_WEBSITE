@@ -16,6 +16,9 @@ import SplashScreen from './components/SplashScreen.js';
 
 import { Fab, Tooltip } from '@mui/material';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -58,22 +61,77 @@ function App() {
         }}
       >
         <Tooltip title="WhatsApp">
-          <Fab
-            size="medium"
-            href="https://wa.me/1234567890" // Change to your WhatsApp link
-            target="_blank"
-            rel="noopener noreferrer"
-            sx={{
-              backgroundColor: '#25D366', // WhatsApp green
-              color: 'white', // Icon color
-              '&:hover': {
-                backgroundColor: '#128C7E', // Darker shade on hover
-              },
-            }}
-          >
-            <WhatsAppIcon />
-          </Fab>
-        </Tooltip>
+        <Fab
+          size="medium"
+          href="https://wa.me/1234567890" // Replace with your WhatsApp link
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            backgroundColor: '#25D366',
+            color: 'white',
+            '&:hover': {
+              backgroundColor: '#128C7E',
+            },
+          }}
+        >
+          <WhatsAppIcon />
+        </Fab>
+      </Tooltip>
+
+      {/* Instagram */}
+      <Tooltip title="Instagram">
+        <Fab
+          size="medium"
+          href="https://instagram.com/yourprofile" // Replace with your Instagram profile link
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            backgroundColor: '#E4405F',
+            color: 'white',
+            '&:hover': {
+              backgroundColor: '#C13584',
+            },
+          }}
+        >
+          <InstagramIcon />
+        </Fab>
+      </Tooltip>
+
+      {/* LinkedIn */}
+      <Tooltip title="LinkedIn">
+        <Fab
+          size="medium"
+          href="https://linkedin.com/in/yourprofile" // Replace with your LinkedIn profile link
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            backgroundColor: '#0077B5',
+            color: 'white',
+            '&:hover': {
+              backgroundColor: '#005582',
+            },
+          }}
+        >
+          <LinkedInIcon />
+        </Fab>
+      </Tooltip>
+
+      {/* Gmail */}
+      <Tooltip title="Email">
+        <Fab
+          size="medium"
+          href="mailto:yourname@example.com" // Replace with your email
+          sx={{
+            backgroundColor: '#D44638',
+            color: 'white',
+            '&:hover': {
+              backgroundColor: '#B23121',
+            },
+          }}
+        >
+          <EmailIcon />
+        </Fab>
+      </Tooltip>
       </div>
 
       <Footer />

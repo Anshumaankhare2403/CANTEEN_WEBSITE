@@ -7,7 +7,7 @@ import WorkingWelcome from '../components/Working_Welcome';
 import Work1 from '../assets/images/Work/Work1.png';
 import Work2 from '../assets/images/Work/Work2.png';
 import Work3 from '../assets/images/Work/Work3.png';
-
+import Wimg from '../assets/images/Addon/7.png';
 
 const CoreValues = () => (
   <div className='container pt-5 mt-5 ' >
@@ -58,7 +58,7 @@ function Working() {
         <WithUsWorking
           col1={<img src={Work1} className="img-fluid" alt="Work 1" loading="lazy" />}
           col2={<img src={Work2} className="img-fluid" alt="Work 2" loading="lazy" />}
-          col3={<img src="path/to/your/image3.jpg" className="img-fluid" alt="Work 3" loading="lazy" />} // Replace with actual image path
+          col3={<img src={Wimg} className="img-fluid shadow-lg rounded" alt="Work 3" loading="lazy" />} // Replace with actual image path
           head="With Us, You Truly Belong"
           head1="With Us, You Can Rightfully Act With A Purpose"
           par1="At Fusion Spice, you belong in a company that values you for who you are; where you are treated fairly, with respect, and can be yourself. Here, your ideas matter, your opinions count, and your perspectives are given due consideration, irrespective of your race, caste, background, ethnicity, sexuality, gender identity, or disability. Our strong inclusive culture gives you the freedom to bring your authentic self to work every day."
