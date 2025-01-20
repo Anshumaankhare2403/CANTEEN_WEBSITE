@@ -13,7 +13,7 @@ function WithUs_Working(props) {
                 <div className='col-lg col-md' >
                     <div className='px-lg-5 px-md-0'>
                         {/* Lazy loading for images in props.col1 */}
-                        <LazyLoad height={200} offset={100}>
+                        <LazyLoad height={100} offset={100}>
                             {props.col1}
                         </LazyLoad>
                     </div>

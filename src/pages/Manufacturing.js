@@ -3,7 +3,9 @@ import { Helmet } from 'react-helmet'; // Importing Helmet for SEO
 import WorkingHome from '../components/Working_Home';
 import WithUsWorking from '../components/WithUs_Working';
 import WorkingWelcome from '../components/Working_Welcome';
-
+import img1 from  '../assets/images/Addon/5.png'
+import img2 from  '../assets/images/Addon/2.png'
+import img3 from  '../assets/images/Addon/3.png'
 function EnergyandResources() {
     return (
         <>
@@ -14,7 +16,9 @@ function EnergyandResources() {
                 <meta name="robots" content="index, follow" />
             </Helmet>
             
-            <WorkingHome head="Making Remote Living Safe and Enjoyable" Bname="Contact Us" link="/contact" />
+            <WorkingHome
+              img={<img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="img-fluid  rounded"  alt="Working environment" loading="lazy" />} 
+             head="Making Remote Living Safe and Enjoyable" Bname="Contact Us" link="/contact" />
 
             <div className='container pt-5 mt-5'>
                 <div className='row px-lg-5 px-md-5'>
@@ -36,9 +40,9 @@ function EnergyandResources() {
             <div className='pt-5 mt-5 pb-5 mb-5'>
                 <WithUsWorking 
                     title="Our Range of Services"
-                    col1={<img src="path/to/image1.jpg" className="img-fluid" alt="Delightful Dining" loading="lazy" />} 
-                    col2={<img src="path/to/image2.jpg" className="img-fluid" alt="Seamless Site Functionality" loading="lazy" />}
-                    col3={<img src="path/to/image3.jpg" className="img-fluid" alt="Total Workforce Support" loading="lazy" />} 
+                    col1={<img src={img2} className="img-fluid rounded "  alt="Delightful Dining" loading="lazy" />} 
+                    col2={<img src={img3} className="img-fluid" alt="Seamless Site Functionality" loading="lazy" />}
+                    col3={<img src={img1} className="img-fluid" alt="Total Workforce Support" loading="lazy" />} 
                     head="Delightful Dining"
                     head1="Seamless Site Functionality" 
                     par1="At Fusion Spice, we provide a diverse range of food options to delight every palate, including globally inspired cuisines, hearty comfort foods, and classic favorites. Our commitment extends beyond variety to ensure comfort and satisfaction. With food trucks, micro markets, and popular fast-casual brands, we bring indulgence and enjoyment to your workforce, boosting morale and productivity."

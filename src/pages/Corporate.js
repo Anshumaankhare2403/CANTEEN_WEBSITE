@@ -18,7 +18,19 @@ const HappyUs = () => (
 function Corporate() {
   return (
     <>
-      <WorkingHome img={<img src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZHVzdHJ5JTIwbHVuY2h8ZW58MHx8MHx8fDA%3D" className="img-fluid rounded w-100" alt="Special occasions at Fusion Spice" />} head="Your People, Our Priority" Bname="Contact Us" link="/contact" />
+<WorkingHome
+  img={
+    <img
+      src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Workplace environment"
+      className='image-fluid ms-lg-5 px-lg-5 rounded'
+      style={{width:'100%'}}
+    />
+  }
+  head="Your People, Our Priority"
+  Bname="Contact Us"
+  link="/contact"
+/>
       <div className='container '>
         <div className='row'>
           <h1 className='display-3 pb-5 pt-5'>Creating People-Centric and Sustainable Workplace Environments</h1>

@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import HomeImage from '../assets/images/home/Image.png';
+import HomeImage from '../assets/images/Addon/1.png';
 const VideoSection = React.lazy(() => import('../components/VideoSection'));
 const MissionValues = React.lazy(() => import('../components/MissionValues'));
 const TeamSection = React.lazy(() => import('../components/TeamSection'));
@@ -14,19 +14,20 @@ function Home() {
             <Suspense fallback={<p>loading...</p>}>
                 <VideoSection />
             </Suspense>
-<div className='container'>
-<div className='row mt-5 pt-5'>
-<div className='col'>
-    <h1 className='display-5'>We Transform Ordinary Moments into Exceptional Experiences</h1>
-    <p className='mt-4'style={{fontSize:'1.0rem'}}>Our goal is to elevate everyday moments and turn them into extraordinary experiences. Whether it's for corporate professionals, students, healthcare providers, or employees working in remote energy sectors, we are committed to improving daily life and contributing to a brighter future for all. We offer a wide range of solutions, including food & catering, facilities management, technical services, workplace experience, and energy management. Our aim is to create an environment where every meal delights, every workspace motivates, and every service exceeds expectations.</p>
-    <p className='' style={{fontSize:'1.0rem'}}>We take pride in cultivating an inclusive, diverse, fair, and supportive workplace that enhances the well-being of everyone we interact with.</p>
-</div>
+            <div className='container'>
+                <div className='row mt-5 pt-5'>
+                    <div className='col-md pt-lg-5'>
+                    <h1  className='display-5 d-none d-lg-block '>Transforming the Mundane into Memorable Experiences</h1>
+                    <h1  className='display-1 d-lg-none '>Transforming the Mundane into Memorable Experiences</h1>
+                    <p className='mt-4' style={{ fontSize: '1.3rem' }}>Our mission is to transform everyday experiences into extraordinary moments. We are dedicated to enriching the lives of corporate professionals, students, healthcare workers, and employees in remote energy sectors by providing solutions that improve daily life and shape a brighter future. Our comprehensive offerings include food and catering services, facilities management, technical support, workplace enhancement, and energy optimization.</p>
+                        <p className='' style={{ fontSize: '1.3rem' }}>We strive to create environments where every meal brings joy, every workspace inspires productivity, and every service exceeds expectations. At the heart of our approach is a commitment to fostering an inclusive, diverse, and equitable workplace that prioritizes the well-being and satisfaction of everyone we serve.</p>
+                    </div>
 
-            <div className='col-md'>
-            <img src={HomeImage} className="img-fluid" alt="..."/>
+                    <div className='col-md'>
+                        <img src={HomeImage} className="img-fluid" alt="..." />
+                    </div>
+                </div>
             </div>
-            </div>
-</div>
             <Suspense fallback={<p>loading...</p>}>
                 <Client />
             </Suspense>
@@ -84,11 +85,11 @@ function Home() {
                                 <div className="col-lg-4 col-md-6 mt-60">
                                     <div className="single-testimonial wow fadeInUp" data-wow-delay=".4s">
                                         <div className="rating" style={{ color: '#E96A20' }}>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
                                         </div>
                                         <div className="content">
                                             <p>google servers</p>
@@ -107,11 +108,11 @@ function Home() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-testimonial wow fadeInUp" data-wow-delay=".6s">
                                         <div className="rating" style={{ color: '#E96A20' }}>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
                                         </div>
                                         <div className="content">
                                             <p>google servers</p>
@@ -130,11 +131,11 @@ function Home() {
                                 <div className="col-lg-4 col-md-6 -mt-30">
                                     <div className="single-testimonial wow fadeInUp" data-wow-delay=".2s">
                                         <div className="rating" style={{ color: '#E96A20' }}>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
                                         </div>
                                         <div className="content">
                                             <p>google servers</p>
@@ -153,11 +154,11 @@ function Home() {
                                 <div className="col-lg-4 col-md-6 -mt-60">
                                     <div className="single-testimonial wow fadeInUp" data-wow-delay=".4s">
                                         <div className="rating" style={{ color: '#E96A20' }}>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
                                         </div>
                                         <div className="content">
                                             <p>google servers</p>
@@ -176,11 +177,11 @@ function Home() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-testimonial wow fadeInUp" data-wow-delay=".6s">
                                         <div className="rating" style={{ color: '#E96A20' }}>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
-                                        <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
                                         </div>
                                         <div className="content">
                                             <p>google servers</p>

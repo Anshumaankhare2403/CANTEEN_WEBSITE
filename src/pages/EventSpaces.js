@@ -9,7 +9,7 @@ const Success = () => (
   <div className='container mt-4 mt-md-5 mt-lg-5 mb-lg-5 mb-md-5 rounded px-4'>
     <div className='row p-lg-5 p-md-5 border border-2'>
       <div className='col-lg col-md align-self-center'>
-        <img src='https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg' className='img-fluid w-100' alt='A beautifully set event space managed by Fusion Spice' />
+        <img src='https://images.unsplash.com/photo-1464047736614-af63643285bf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='img-fluid w-100' alt='A beautifully set event space managed by Fusion Spice' />
       </div>
       <div className='col-lg col-md ms-lg-5'>
         <h2 className='display-4'>Unlock the Key to Event Space Success</h2>
