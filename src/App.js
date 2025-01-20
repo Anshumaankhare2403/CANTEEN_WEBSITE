@@ -16,10 +16,10 @@ import SplashScreen from './components/SplashScreen.js';
 
 import { Fab, Tooltip } from '@mui/material';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-
+import FacebookIcon from '@mui/icons-material/Facebook';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -78,30 +78,13 @@ function App() {
         </Fab>
       </Tooltip>
 
-      {/* Instagram */}
-      <Tooltip title="Instagram">
-        <Fab
-          size="medium"
-          href="https://instagram.com/yourprofile" // Replace with your Instagram profile link
-          target="_blank"
-          rel="noopener noreferrer"
-          sx={{
-            backgroundColor: '#E4405F',
-            color: 'white',
-            '&:hover': {
-              backgroundColor: '#C13584',
-            },
-          }}
-        >
-          <InstagramIcon />
-        </Fab>
-      </Tooltip>
+     
 
       {/* LinkedIn */}
       <Tooltip title="LinkedIn">
         <Fab
           size="medium"
-          href="https://linkedin.com/in/yourprofile" // Replace with your LinkedIn profile link
+          href="https://www.linkedin.com/company/fusion-spice/" // Replace with your LinkedIn profile link
           target="_blank"
           rel="noopener noreferrer"
           sx={{
@@ -120,7 +103,7 @@ function App() {
       <Tooltip title="Email">
         <Fab
           size="medium"
-          href="mailto:yourname@example.com" // Replace with your email
+          href="mailto:fusionspice.tanishq@gmail.com" // Replace with your email
           sx={{
             backgroundColor: '#D44638',
             color: 'white',
@@ -130,6 +113,25 @@ function App() {
           }}
         >
           <EmailIcon />
+        </Fab>
+      </Tooltip>
+
+      {/* Facebook */}
+      <Tooltip title="Facebook">
+        <Fab
+          size="medium"
+          href="https://www.facebook.com/fusionspice11/" // Replace with your Facebook profile link
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            backgroundColor: '#1877F2',
+            color: 'white',
+            '&:hover': {
+              backgroundColor: '#155BC0',
+            },
+          }}
+        >
+          <FacebookIcon />
         </Fab>
       </Tooltip>
       </div>
